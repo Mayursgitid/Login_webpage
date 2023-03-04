@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+           padding: 12px;
+}
+
+.logo {
+    color: rgb(255, 115, 0);
+}
+
+span {
+    color: rgb(255, 115, 0);
+    font-weight: bold;
+}
+span a{
+    color: rgb(255, 115, 0);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation ul {
+    display: flex;
+}
+
+.navigation ul li {
+    margin-left: 15px;
+    color: rgb(255, 115, 0);
+    list-style: none;
+}
+
+.navigation ul li a {
+    color:white;
+    text-decoration: none;
+
+}
+
+.navigation ul li a:hover {
+    color: rgb(255, 115, 0);
+    cursor: pointer;
+
+}
+
+.search input {
+    padding: 12px;
+    width: 200px;
+    color: white;
+    background-color: black;
+    border: 1px solid rgb(255, 115, 0);
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.322)),
+        url(img/online.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.details h1,p{
+    color: white;
+}
+.details {
+    width: 70%;
+}
+
+.login {
+    width: 20%;
+}
+
+.lli {
+    display: flex;
+    margin-top: 10px;
+    list-style: none;
+}
+
+.lli li a {
+    list-style: none;
+    margin: 2px;
+}
+
+.details p {
+    margin-top: 10px;
+    text-align: start;
+}
+
+.btn {
+    width: 200px;
+    color: white;
+    background-color: rgb(255, 115, 0);
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: rgb(197, 91, 4);
+
+}
+.lbtn {
+    width: 100px;
+    color: white;
+    background-color: rgb(255, 115, 0);
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.lbtn:hover{
+    background-color: rgb(197, 91, 4);
+
+}
+.login {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    height: 350px;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.login h3,
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.login form {
+    text-align: center;
+
+}
+
+.login ul {
+    margin-left: 35px;
+}
+
+.login form input {
+    padding: 8px;
+    margin-top: 15px;
+    color: white;
+    background-color: black;
+    border-bottom: 1px solid rgb(255, 115, 0);
+
+}
+
+.lli li a img {
+    border-radius: 8px;
+}
+.details h1{
+    font-size: 42px;
+}
